@@ -1,0 +1,10 @@
+CREATE DATABASE node_auth;
+
+USE node_auth;
+
+CREATE TABLE users (
+  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NUeLL,
+  password VARCHAR(255) NOT NULL
+);
